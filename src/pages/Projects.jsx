@@ -4,8 +4,7 @@ import { CTA } from "../components";
 import { projects } from "../constants";
 import { arrow } from "../assets/icons";
 
-const Projects = () => {
-  return (
+const Projects = () => (
     <section className='max-container'>
       <h1 className='head-text'>
         My{" "}
@@ -66,6 +65,5 @@ const Projects = () => {
       <CTA />
     </section>
   );
-};
 
 export default Projects;

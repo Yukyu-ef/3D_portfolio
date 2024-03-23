@@ -2,8 +2,7 @@ import { NavLink } from "react-router-dom";
 
 import { logo } from "../assets/images";
 
-const Navbar = () => {
-  return (
+const Navbar = () => (
     <header className='header'>
       <NavLink to='/'>
         <img src={logo} alt='logo' className='w-18 h-18 object-contain' />
@@ -18,6 +17,5 @@ const Navbar = () => {
       </nav>
     </header>
   );
-};
 
 export default Navbar;

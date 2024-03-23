@@ -2,8 +2,7 @@ import { Link } from "react-router-dom";
 
 import { socialLinks } from "../constants";
 
-const Footer = () => {
-  return (
+const Footer = () => (
     <footer className='footer font-poppins'>
       <hr className='border-slate-200' />
 
@@ -26,6 +25,5 @@ const Footer = () => {
       </div>
     </footer>
   );
-};
 
 export default Footer;
