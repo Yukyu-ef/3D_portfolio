@@ -1,6 +1,6 @@
 import {
-  VerticalTimeline,
-  VerticalTimelineElement,
+    VerticalTimeline,
+    VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 
 import { CTA } from "../components";
@@ -8,8 +8,7 @@ import { experiences, skills } from "../constants";
 
 import "react-vertical-timeline-component/style.min.css";
 
-const About = () => {
-  return (
+const About = () => (
     <section className='max-container'>
       <h1 className='head-text'>
         Hello, I'm{" "}
@@ -111,6 +110,5 @@ const About = () => {
       <CTA />
     </section>
   );
-};
 
 export default About;

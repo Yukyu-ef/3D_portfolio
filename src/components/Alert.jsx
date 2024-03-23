@@ -1,5 +1,4 @@
-const Alert = ({ type, text }) => {
-  return (
+const Alert = ({ type, text }) => (
     <div className='absolute top-10 left-0 right-0 flex justify-center items-center'>
       <div
         className={`p-2 ${
@@ -18,6 +17,5 @@ const Alert = ({ type, text }) => {
       </div>
     </div>
   );
-};
 
 export default Alert;

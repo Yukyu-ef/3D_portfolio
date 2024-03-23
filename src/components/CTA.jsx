@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 
-const CTA = () => {
-  return (
+const CTA = () => (
     <section className='cta'>
       <p className='cta-text'>
         Have a project in mind? <br className='sm:block hidden' />
@@ -12,6 +11,5 @@ const CTA = () => {
       </Link>
     </section>
   );
-};
 
 export default CTA;
